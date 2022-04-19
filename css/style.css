@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+
+body{
+    width: 1280px;
+   background-image: url(file:///D:/Projetos/Front-end%20IO/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+   padding: 0;
+   margin: 0;
+   background-color: hsl(257, 40%, 49%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    padding-top: 10px;
+}
+
+.imagem-logo{
+    
+    width: 50px;
+}
+
+.cabecalho-titulo{
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.conteudo{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.conteudo-imagem{
+    height: 500px;
+    width: 640px;
+}
+
+.conteudo-texto{
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;  
+    font-weight: 400;
+    color: white;
+}
+.conteudo-titulo{
+    text-align: left;
+    width: 350px;
+}
+
+.conteudo-paragrafo{
+    text-align:left;
+    height: 90px;
+    width: 500px;
+}
+
+.img{
+   padding-left: 20px;
+   max-width: 100%;
+   max-height: 100%;
+   margin-top: 50px;   
+}
+
+.conteudo-botao{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: hsl(257, 40%, 49%);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conteudo-botao:hover{
+    border: solid white 2px;
+    background-color: hsl(256, 10%, 79%);;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.icon{
+    margin-left: 20px;
+    border: solid black 2px;
+    padding: 6px;
+    border-radius: 50px;
+}
+
+
